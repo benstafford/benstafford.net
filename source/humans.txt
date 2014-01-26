@@ -1,7 +1,7 @@
 /* TEAM */
-Developer: My name
-Site: http://mysite.com
-Twitter: @myhandle
+Developer: Ben Stafford
+Site: http://benstafford.net
+Twitter: @benstafford
 Location: Any town, USA
 
 /* THANKS */

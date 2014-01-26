@@ -1,5 +1,5 @@
 <div class="row">
-  <article class="small-12 large-9 columns left">
+  <article class="columns left">
     <h3>
       <% if digest %>
         <%= link_to article.title, article %>
@@ -37,15 +37,17 @@
       <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
     <% end %>
   </article>
-  <aside class="small-12 large-3 columns right">
-    <ul class="credit">
-      <li class="time">Posted on <time datetime="<%= article.date.strftime('%Y-%m-%d') %>"><%= article.date.strftime('%A %b %e, %Y') %></time></li>
-    </ul>
-    <ul class="tags">
-      <% article.tags.each do |tag| %>
-        <li><%= link_to tag, tag_path(tag), :class => 'tiny button secondary round' %></li>
-      <% end %>
-    </ul>
-  </aside>
+  <% unless digest %>
+    <aside class="small-12 large-3 columns right">
+      <ul class="credit">
+        <li class="time">Posted on <time datetime="<%= article.date.strftime('%Y-%m-%d') %>"><%= article.date.strftime('%A %b %e, %Y') %></time></li>
+      </ul>
+      <ul class="tags">
+        <% article.tags.each do |tag| %>
+          <li><%= link_to tag, tag_path(tag), :class => 'tiny button secondary round' %></li>
+        <% end %>
+      </ul>
+    </aside>
+  <% end %>
 </div>
 

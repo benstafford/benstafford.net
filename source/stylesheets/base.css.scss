@@ -1,6 +1,6 @@
 /* IE upgrade overlay */
 #ie-warning-overlay {
-  position: absolute; 
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -13,7 +13,7 @@
     position: relative;
     z-index: 2001;
     border: #000 1px solid;
-    padding: 20px; 
+    padding: 20px;
     background-color: #fff;
     color: #4f4f4f;
     font-family: 'Lucida Grande','Lucida Sans Unicode',Arial,Verdana,sans-serif;
@@ -38,7 +38,7 @@
         width: 120px;
         height: 122px;
         cursor: pointer;
-        
+
         a {
           display: block;
           width: 120px;
@@ -83,18 +83,18 @@ ul.plain, ol.plain {
 /* Blog articles */
 div.articles {
   hr {
-    margin: 2em 0 3em 0;
+    margin: 0 0 0 0;
     border-color: #e1e1e1;
-    border-style: dotted;     
+    border-style: dotted;
   }
-}  
+}
 
-ul.read_next {                
-  list-style: none;           
-  border-top: 1px solid #e1e1e1;  
+ul.read_next {
+  list-style: none;
+  border-top: 1px solid #e1e1e1;
   padding-top: 1em;
   margin-top: 2em;
-  li { 
+  li {
     margin: 0;
     padding: 0;
     width: 50%;
@@ -103,7 +103,7 @@ ul.read_next {
     font-weight: bold;
     color: #333;
     a {
-      text-transform: uppercase;      
+      text-transform: uppercase;
     }
     &:last-child {
       text-align: right;
@@ -128,3 +128,6 @@ aside {
   }
 }
 
+.sidebar {
+  background-color: #efefef;
+}
