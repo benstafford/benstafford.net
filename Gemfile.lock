@@ -65,7 +65,11 @@ GEM
     multi_json (1.7.7)
     nokogiri (1.6.0)
       mini_portile (~> 0.5.0)
+    puma (2.7.1)
+      rack (>= 1.1, < 2.0)
     rack (1.5.2)
+    rack-contrib (1.1.0)
+      rack (>= 0.9.1)
     rack-test (0.6.2)
       rack (>= 1.0)
     rb-fsevent (0.9.3)
@@ -106,6 +110,8 @@ DEPENDENCIES
   middleman (~> 3.1.0)
   middleman-blog (~> 3.2.0)
   nokogiri
+  puma
+  rack-contrib
   sitemap_generator
   tzinfo
   zurb-foundation (~> 4.2.2)
