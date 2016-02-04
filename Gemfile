@@ -10,6 +10,6 @@ gem "sitemap_generator"
 gem "tzinfo"
 gem "nokogiri"
 
-ruby "2.0.0"
+ruby "2.2.4"
 gem "rack-contrib"
 gem "puma"
