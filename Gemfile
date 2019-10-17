@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-gem "middleman", "~> 3.1.0"
-gem "middleman-blog", "~> 3.2.0"
+gem "middleman", "~> 4.0"
+gem "middleman-blog", "~> 4.0"
 gem "kramdown"
 gem "builder", "~> 3.0.0"
 gem "zurb-foundation" , '~> 4.2.2', require: false
@@ -10,6 +10,6 @@ gem "sitemap_generator"
 gem "tzinfo"
 gem "nokogiri"
 
-ruby "2.2.4"
+ruby "2.6.5"
 gem "rack-contrib"
 gem "puma"
